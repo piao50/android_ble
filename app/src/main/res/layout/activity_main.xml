@@ -59,7 +59,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_Test"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Button" />
@@ -84,5 +84,15 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="119dp" />
 
 </android.support.constraint.ConstraintLayout>
