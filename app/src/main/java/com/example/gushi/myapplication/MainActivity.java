@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        edit = (EditText)findViewById(R.id.editText);
+        edit = findViewById(R.id.editText);
         findViewById(R.id.button_Test).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                edit.setText("OK");
-                getResources().getString(R.string.msg);
+//                edit.setText("OK
+                edit.setText(getResources().getString(R.string.msg));
             }
         });
     }
